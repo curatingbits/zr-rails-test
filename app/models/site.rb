@@ -7,12 +7,8 @@ class Site < ApplicationRecord
 
   validates_presence_of :name, :description, :domain, :user
 
-  # before_destroy :destroy_pages
 
  private
 
- # def destroy_pages
- #   self.pages.destroy_all
- # end
 
 end
